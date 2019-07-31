@@ -1,0 +1,281 @@
+/*
+	Styling for header and banner
+*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #1E3D58;
+}
+
+
+
+.navbar{
+	padding-top: 20px;
+
+}
+
+.navbar{
+	margin-bottom: 10px;
+}
+
+.nav-item{
+	color: #3E4A72 !important;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 20px 30px;
+	margin-left: 10px;
+	display: unset;
+}
+
+.fa-bars{
+	font-size: 30px;
+	color: #fff;
+}
+
+.navbar-toggler{
+	border: 0 !important;
+	outline: none !important;
+	padding: initial !important;
+}
+
+.navbar-nav a.active,
+.navbar-nav a:hover{
+	background-color: #3E4A72;
+	border-bottom: 2px solid #fff;
+	color: #fff !important;
+}
+
+
+/*
+	Style for Home Page Banner
+
+
+.cover-pic{
+	background-image: url('../img/new_banner.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center center;
+	background-attachment: fixed;
+}*/
+
+.banner{
+	margin-top: 5%;
+	padding-bottom: 10%;
+	color: #fff;
+}
+
+
+.banner h2{
+	margin: 40px 0 30px 0;
+	font-weight: 500;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner p{
+
+	font-size: 24px;
+
+}
+
+
+/*
+	style for welcome section
+*/
+
+.intro{
+	padding-bottom: 50px;
+}
+
+
+.welcome-info{
+	margin-top: -80px;
+	background-color: #fff;
+	color: #262628;
+}
+
+.intro h3 small{
+	font-size: 16px;
+	color: #636364;
+}
+
+.info-box{
+	padding: 20px;
+}
+
+.welcome-info h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.info-box p{
+	color: #b7b7b7;
+	font-size: 14px;
+}
+
+.sideinfo{
+	padding: 40px;
+	color: #fff;
+	background-color: #3F3F95;
+	/*background-image: url('../img/bg001.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center center;*/
+}
+
+
+.sideinfo h3{
+	font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.sideinfo h5{
+	font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    color: #ccc;
+}
+
+.sideinfo p{
+	color: #e6e6e6;
+}
+
+
+.libs{
+	color: #fff;
+	background-image: url('../img/image_001.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center center;
+}
+
+.purple-strip{
+	background-color: #3F3F95;
+	color: #fff;
+}
+
+.purple-strip h3,
+.bg-light h3,
+.bg-white h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    color: #ccc;
+}
+
+.blue-strip{
+	background-color: #308ecc;
+	color: #fff;
+}
+
+.blue-strip h5{
+	color: #add3ec;
+}
+
+.roundbox{
+	border-radius: 50px;
+	border: 2px solid #FFFFFF;
+	padding: 5px;
+}
+
+.email_field{
+	padding: 10px 20px;
+	background-color: transparent;
+	border:none;
+	color: #ffffff;
+	border-radius: 50px;
+}
+
+
+.submit_but{
+	padding: 10px 20px;
+	background-color: green;
+	border:none;
+	color: #ffffff;
+	border-radius: 50px;
+
+}
+
+
+*:focus {
+    outline: none;
+}
+
+
+
+/*
+	Style for footer
+*/
+
+footer{
+	background-color: #3C3C3C;
+	color: #fff;
+	padding: 30px 0 30px 0;
+	font-size: 12px;
+}
+
+
+footer h3{
+	font-size: 18px;
+	font-weight: 300px;
+	border-bottom: 2px solid #04AFF6;
+	padding: 15px 5px;
+}
+
+
+footer ul li a{
+	color:#8d8d8d;
+	padding: 5px !important;
+	display: inline-block;
+}
+
+
+footer a:hover{
+	color:#f1f1f1;
+	text-decoration: none;
+
+}
+
+
+.mb-11{
+	margin-bottom: -10px !important;
+}
+
+
+.text-dark-slate-blue{
+	color: #C8CFEE;
+}
+
+.bg-light-blue{
+	background-color: #3E4A72;
+}
+
+.bg-gray{
+	background-color: #e8eff5;
+}
+
+
+.bb-1 {
+    border-bottom-width:10px !important;
+    border-bottom-style: solid;
+}
+
+.bb-danger{
+	
+	border-color: #dc3545!important;
+}
+
+.bb-warning{
+	border-color: #ffc107!important;
+}
+
+.bb-info{
+	border-color: #17a2b8!important;
+}
+
+.bb-primary{
+	border-color: #007bff!important;
+}
